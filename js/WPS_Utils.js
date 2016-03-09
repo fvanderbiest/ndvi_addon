@@ -5,14 +5,9 @@ Ext.namespace("GEOR");
 
 GEOR.WPS_Utils = (function() {
 
-        workspace =  null;
-       
-        layerName = null;
-
-        serverStore = null;
-
-        
-
+    workspace =  null;
+    layerName = null;
+    serverStore = null;
 
 	return {
 		/**
