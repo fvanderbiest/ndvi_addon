@@ -1,0 +1,51 @@
+{
+    "js": [
+        "js/WPS_Utils.js",
+        "js/main.js",
+        "../../../lib/proj4js/lib/proj4js-combined.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Layer/Image.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WCSGetCoverage.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/Format/WPSExecute.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSClient.js",
+        "../../../lib/externals/openlayers/lib/OpenLayers/WPSProcess.js"
+    ],
+    "css": [
+        "css/calculndvi.css"
+    ],
+    "default_options": {
+        "mode": "static",
+        "showintoolmenu": true        
+    },
+    "i18n": {
+        "en": {
+               "calculndvi.workspace": "Workspace",
+               "calculndvi.layername": "Layer name",
+               "calculndvi.submit": "Validate",
+               "calculndvi.warning.message": "You should fill the layer name and workspace fields",
+               "calculndvi.secondlayer": "The red layer",
+               "calculndvi.firstlayer": "The near infrared layer",
+               "calculndvi.layersprojection": "Layers projection:",
+               "calculndvi.layersprojection.label": "Projection",
+               "calculndvi.generatedLayer": "Generated ndvi layer:",
+               "calculndvi.generatedLayerName": "Name",
+               "calculndvi.geoserveridentifier":"Connect to geoserver",
+               "calculndvi.geoserverusername":"Username",
+               "calculndvi.geoserverpassword":"Password"
+              },
+        "fr": {
+               "calculndvi.workspace": "Espace de travail",
+               "calculndvi.layername": "Nom de la couche",
+               "calculndvi.submit": "Valider",
+               "calculndvi.warning.message": "Vous devez remplir Les champs couche et espace de travail.",
+               "calculndvi.secondlayer": "La couche rouge",
+               "calculndvi.firstlayer": "La couche proche infrarouge",
+               "calculndvi.layersprojection": "Projection des couches:",
+               "calculndvi.layersprojection.label": "Projection",
+               "calculndvi.generatedLayer": "La couche ndvi générée:",
+               "calculndvi.generatedLayerName":"Nom",
+               "calculndvi.geoserveridentifier":"Connexion à geoserver",
+               "calculndvi.geoserverusername":"Identifiant",
+               "calculndvi.geoserverpassword":"Mot de passe"
+              }
+    }
+}
